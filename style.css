@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flexed {
+    display: flex;
+}
+
+.autoZone {
+    margin: 0 auto;
+}
+
+
+
+/* ~ */
+
+.navbar {
+    background-color: black;
+}
+
+.navbar img {
+    height: 150px;
+}
+
+.container {
+    background-image: url(./static/sanctum.jpg);
+}
+
+.col-1, .col-2, .col-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-2{
+    text-align: center;
+}
+
+.wingsImg {
+    height: 200px;
+}
+
+.main {
+    justify-content: space-around;
+    align-items: center;
+}
+
+
