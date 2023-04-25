@@ -25,11 +25,12 @@
 
 .container {
     background-image: url(./static/sanctum.jpg);
+    background-attachment: fixed;
 }
 
 .col-1, .col-2, .col-3 {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 300px;
 }
 
 .col-2{
@@ -37,12 +38,23 @@
 }
 
 .wingsImg {
-    height: 200px;
+    height: 400px;
 }
 
 .main {
     justify-content: space-around;
     align-items: center;
 }
+
+.mapsLi {
+    list-style: none;
+    text-align: center;
+}
+
+.secondary {
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 
