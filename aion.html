@@ -11,10 +11,10 @@
   <div class="navbar flexed">
     <img class="autoZone" src="./static/AN-Classic-logo.png" alt="logo">
   </div>
-  <div class="container">
+  <div class="container" id="bgHolder">
     <div class="main flexed">
       <div class="col-1">
-        <img class="wingsImg" src="./static/wings_1.png" alt="black wings">
+        <img class="wingsImg" src="./static/wings_1.png" alt="black wings" onclick="bgSwapA()">
       </div>
       <div class="col-2">
           <ul class="cleanLi mainText">
@@ -23,7 +23,7 @@
           </ul>
       </div>
       <div class="col-3">
-        <img class="wingsImg" src="./static/wings_2.png" alt="white wings">
+        <img class="wingsImg" src="./static/wings_2.png" alt="white wings" onclick="bgSwapE()">
       </div>
     </div>
 
@@ -31,13 +31,13 @@
         <img id="raceImg" src="./static/shugo.png" alt="shugo">
         <ul class="mapsLi cleanLi">
           <li><h2>The Abyss (Reshanta)</h2></li>
-          <li class="strong glowing-border">
+          <li class="strong glowing-border" onclick='mapSwapU()'">
             Upper Abyss
           </li>
-          <li class="strong glowing-border">
+          <li class="strong glowing-border" onclick="mapImg.src='./static/abyss_core.jpg'; mapImg.alt='core'">
             Core
           </li>
-          <li class="strong glowing-border">
+          <li class="strong glowing-border" onclick="mapImg.src='./static/abyss_lower.jpg'; mapImg.alt='lower abyss'">
             Lower Abyss
           </li>
         </ul>
@@ -45,10 +45,6 @@
     </div>
   </div>
   
-
-
-
-
   <script src="script.js"></script>
 </body>
 </html>

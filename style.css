@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 
-.glowing-border {
+.glowing-border:hover {
     text-shadow: 0 0 10px maroon; /* aqua for asmo. yellowgreen for ely. */
 }
 /* ~ */
@@ -88,6 +88,10 @@ li {
 }
 
 #raceImg {
+    height: 500px;
+}
+
+#mapImg {
     height: 500px;
 }
 
