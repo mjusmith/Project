@@ -27,10 +27,13 @@
 
 li {
     background-color: rgba(189, 195, 199, 0.4);
+    padding: 20px;
 }
 
 .navbar {
     background-color: black;
+    height: 200px;
+    align-items: center;
 }
 
 .navbar img {
@@ -44,7 +47,7 @@ li {
 
 .col-1, .col-2, .col-3 {
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .col-2{
@@ -53,15 +56,17 @@ li {
 
 .col-2 ul {
     max-width: 500px;
+    border-radius: 25px;
 }
 
 .col-2 li {
-    margin-bottom: 20px;
     font-size: 35px;
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
 
 .wingsImg {
-    height: 400px;
+    height: 550px;
 }
 
 .main {
@@ -72,11 +77,18 @@ li {
 .mapsLi {
     text-align: center;
     font-size: 30px;
+    border-radius: 25px;
 }
 
 .secondary {
     align-items: center;
     justify-content: space-around;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+#raceImg {
+    height: 500px;
 }
 
 
