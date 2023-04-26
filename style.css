@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .flexed {
@@ -11,9 +12,22 @@
     margin: 0 auto;
 }
 
+.cleanLi {
+    list-style: none;
+}
 
+.strong {
+    font-weight: bold;
+}
 
+.glowing-border {
+    text-shadow: 0 0 10px maroon; /* aqua for asmo. yellowgreen for ely. */
+}
 /* ~ */
+
+li {
+    background-color: rgba(189, 195, 199, 0.4);
+}
 
 .navbar {
     background-color: black;
@@ -37,6 +51,15 @@
     text-align: center;
 }
 
+.col-2 ul {
+    max-width: 500px;
+}
+
+.col-2 li {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
 .wingsImg {
     height: 400px;
 }
@@ -47,8 +70,8 @@
 }
 
 .mapsLi {
-    list-style: none;
     text-align: center;
+    font-size: 30px;
 }
 
 .secondary {
