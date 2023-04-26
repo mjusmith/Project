@@ -93,6 +93,7 @@ li {
 
 #mapImg {
     height: 500px;
+    max-width: 600px;
 }
 
 
