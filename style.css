@@ -20,9 +20,18 @@
     font-weight: bold;
 }
 
-.glowing-border:hover {
-    text-shadow: 0 0 10px maroon; /* aqua for asmo. yellowgreen for ely. */
+.glowing-border-mar:hover {
+    text-shadow: 0 0 10px maroon;
 }
+
+.glowing-border-asmo:hover {
+    text-shadow: 0 0 10px aqua;
+}
+
+.glowing-border-ely:hover {
+    text-shadow: 0 0 10px yellowgreen;
+}
+
 /* ~ */
 
 li {
@@ -79,6 +88,7 @@ li {
     text-align: center;
     font-size: 30px;
     border-radius: 25px;
+    width: 350px;
 }
 
 .secondary {
@@ -90,12 +100,14 @@ li {
 
 #raceImg {
     height: 500px;
+    max-width: 800px;
 }
 
 #mapImg {
     height: 500px;
     max-width: 600px;
 }
+
 
 
 
